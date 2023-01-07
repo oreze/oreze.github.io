@@ -27,6 +27,7 @@ a:active {
     transition: all .1s ease-out 0ms;
     -webkit-transition: all .1s ease-out 0ms;
     -moz-transition: all .1s ease-out 0ms;
+    -o-transition: all .1s ease-out 0ms;
 }
 
 .button-link-rounded:hover {
