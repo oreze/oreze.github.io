@@ -28,6 +28,6 @@ a:active {
 }
 
 .button-link-rounded:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background-color: #282951;
 }
