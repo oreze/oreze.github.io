@@ -1,47 +1,47 @@
 .App {
-  background-color: #17182f;
-  height: 100vh;
-  min-width: 100vw;
-  font-family: Roboto, "Roboto Light", Arial, sans-serif;
-  color: white;
+    background-color: #17182f;
+    height: 100vh;
+    min-width: 100vw;
+    font-family: Roboto, "Roboto Light", Arial, sans-serif;
+    color: white;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 a {
-  z-index: 9999;
+    z-index: 9999;
 }
 
 
 @media only screen and (min-width: 320px) {
-  body {
-    font-size: 1rem;
-  }
+    body {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 480px) {
-  body {
-    font-size: 1.5rem;
-  }
+    body {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-  body {
-    font-size: 2rem;
-  }
+    body {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (min-width: 900px) {
-  body {
-    font-size: 3rem;
-  }
+    body {
+        font-size: 3rem;
+    }
 }

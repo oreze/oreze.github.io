@@ -1,5 +1,5 @@
 const getNumberOfParticles = (): number => {
-    return (window.innerHeight*window.innerWidth)/2000;
+    return (window.innerHeight * window.innerWidth) / 2000;
 };
 
 const backgroundParticlesConfig = {

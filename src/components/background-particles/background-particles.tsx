@@ -1,10 +1,11 @@
 import {FC, useCallback} from "react";
-import type { Container, Engine } from "tsparticles-engine";
+import type {Container, Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import {loadFull} from "tsparticles";
 import backgroundParticlesConfig from "../../config/backgroundParticlesConfig";
 
-interface BackgroundParticlesProps {}
+interface BackgroundParticlesProps {
+}
 
 const BackgroundParticles: FC<BackgroundParticlesProps> = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
