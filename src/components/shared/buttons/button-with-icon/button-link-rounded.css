@@ -25,6 +25,8 @@ a:active {
     margin: .6em 1.2em;
     border-radius: 0.2em;
     transition: all .1s ease-out 0ms;
+    -webkit-transition: all .1s ease-out 0ms;
+    -moz-transition: all .1s ease-out 0ms;
 }
 
 .button-link-rounded:hover {
